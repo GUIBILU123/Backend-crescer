@@ -16,7 +16,7 @@ const app = express();
 
 // Configurar o CORS para permitir requisições do frontend
 const corsOptions = {
-  origin: ['http://localhost:3001', 'https://crescer-front-two.vercel.app', 'https://crescer-mong-api-nu.vercel.app'], 
+  origin: ['http://localhost:3001', 'crescer-front-eight.vercel.app', 'https://crescer-mong-api-nu.vercel.app'],  
   methods: ['GET', 'POST', 'PUT', 'DELETE'],  
   allowedHeaders: ['Content-Type', 'Authorization'], 
 };
